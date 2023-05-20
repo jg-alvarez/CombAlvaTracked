@@ -1,2 +1,2 @@
 # CombAlvaTracked
-Combat Tracker for D&amp;D 5e
+Combat Tracker for D&amp;D 5e using Python.

@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="dSet">
+    <file>dice/d2.png</file>
+    <file>dice/d4.png</file>
+    <file>dice/d6.png</file>
+    <file>dice/d8.png</file>
+    <file>dice/d10.png</file>
+    <file>dice/d12.png</file>
+    <file>dice/d20.png</file>
+    <file>dice/d100.png</file>
+  </qresource>
+</RCC>

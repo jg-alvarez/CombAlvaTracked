@@ -1,12 +1,14 @@
 class Char:
-    def __init__(self, name, HP, AC, init, cond):
-        self.name = name
-        self.MaxHP = HP
-        self.HP = HP
-        self.AC = AC
-        self.init = init
-        self.cond = cond
+    def __init__(self, _name, _MaxHP, _HP, _AC, _init, _cond):
+        self.name = _name
+        self.MaxHP = _MaxHP
+        self.HP = _HP
+        self.AC = _AC
+        self.init = _init
+        self.cond = _cond
         self.permaDead = False
+
+        self.condList = ["Normal", "Prone", "Hiden", "Grappled", "Charmed", "Frightened", "Poisoned", "Blind", "Incapacited", "Paralised", "Petrified", "Restrained", "Stunned", "Unconscious", "Invisible", "Deafened", "Stable", "Revived", "Downed", "Perma Dead"]
 
     def DmgReceived(self, _dmg):
         self.HP -= _dmg
